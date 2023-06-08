@@ -1,5 +1,9 @@
 # Align Tech Assessment
 
+## Status
+
+[![vegam17](https://circleci.com/gh/vegam17/aligntech.svg?style=shield)](https://app.circleci.com/pipelines/github/vegam17/aligntech)
+
 ## Available Scripts
 
 In the project directory, you can run:
