@@ -1,5 +1,16 @@
-import styles from './App.module.scss';
+import Header from './components/Header';
+import data from './data';
 
 export default function App() {
-  return <h1 className={styles.h1}>Hello world!</h1>;
+  const { header } = data;
+  return (
+    <main>
+      <Header
+        title={header.title}
+        subtitle={header.subtitle}
+        tagline={header.tagline}
+        social={header.social}
+      />
+    </main>
+  );
 }
