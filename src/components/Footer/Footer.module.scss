@@ -1,9 +1,9 @@
 .footer {
     @apply bg-black text-white py-6;
     .wrap {
-        @apply flex justify-between items-center;
+        @apply text-center flex flex-col gap-2 sm:gap-0 sm:text-left sm:flex-row sm:justify-between sm:items-center;
         img {
-            @apply h-6;
+            @apply mx-auto sm:mx-0 h-6;
         }
     }
 }
