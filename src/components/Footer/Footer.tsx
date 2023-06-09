@@ -12,8 +12,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <Container classes={styles.wrap}>
         <div>
-          <p>{date}</p>
-          <p>{branch.name}</p>
+          <p>date: {date}</p>
+          <p>branch: {branch.name}</p>
         </div>
         <a
           href="https://app.circleci.com/pipelines/github/vegam17/aligntech"
