@@ -1,7 +1,7 @@
 .columns {
-  @apply grid sm:grid-cols-3 gap-8 py-12;
+  @apply grid sm:grid-cols-4 gap-8 py-12;
   section {
-    @apply col-span-2;
+    @apply col-span-3;
   }
   aside {
     @apply col-span-1;

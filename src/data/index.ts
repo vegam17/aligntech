@@ -63,6 +63,40 @@ const data = {
         'Created company-wide financial analytics dashboards for C-level Executives using React that consumed Salesforce APIs and integrated into the admin dashboard to provide bottom-line financial reporting for management.'
       ]
     }
+  ],
+  education: [
+    {
+      date: {
+        from: '',
+        to: '2020-07-01'
+      },
+      heading: 'M.S. Software Engineering',
+      subheading: 'East Carolina University'
+    },
+    {
+      date: {
+        from: '',
+        to: '2018-05-01'
+      },
+      heading: 'M.S. Network Technology',
+      subheading: 'East Carolina University'
+    },
+    {
+      date: {
+        from: '',
+        to: '2015-12-01'
+      },
+      heading: 'B.S. Industrial Technology',
+      subheading: 'East Carolina University'
+    },
+    {
+      date: {
+        from: '',
+        to: '2013-05-01'
+      },
+      heading: 'A.S. Computer Information Technology',
+      subheading: 'Wayne Community College'
+    }
   ]
 };
 
