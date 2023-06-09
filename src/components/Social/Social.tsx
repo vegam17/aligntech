@@ -1,13 +1,11 @@
 import { ReactElement } from 'react';
 import { LinkedInIcon, EmailIcon, PhoneIcon } from '../../icons';
 import { TSocial } from '../../types';
+import data from '../../data';
 import style from './Social.module.scss';
 
-interface Props {
-  social: TSocial[];
-}
-
-export default function Social({ social }: Props) {
+export default function Social() {
+  const social: TSocial[] = data.social;
   if (social.length === 0) return null;
 
   const getIcon = (slug: string): ReactElement => {
