@@ -97,6 +97,41 @@ const data = {
       heading: 'A.S. Computer Information Technology',
       subheading: 'Wayne Community College'
     }
+  ],
+  skills: [
+    {
+      icon: 'gear',
+      heading: 'Engineering',
+      description:
+        'I ensure a smooth implementation and optimal performance through seamless code design and deployment.',
+      details: [
+        'Frontend & UI / UX',
+        'Backend & Infrastructure',
+        'Cloud Architecture',
+        'API Design & Implementation',
+        'RESTful Web Services'
+      ]
+    },
+    {
+      icon: 'leadership',
+      heading: 'Leadership',
+      description:
+        'I excel at taking on new challenges, and thrive when I am able to use my knowledge and expertise to drive decision making. ',
+      details: [
+        'Strategic Planning & Execution',
+        'Project Management',
+        'Process Improvement',
+        'Training & Development',
+        'Coaching & Mentorship'
+      ]
+    },
+    {
+      icon: 'code',
+      heading: 'Software',
+      description:
+        'I enjoy crafting code from the ground up, and take pleasure in translating concepts into tangible experiences.',
+      details: ['Javascript', 'Typescript', 'Node', 'React', 'AWS']
+    }
   ]
 };
 

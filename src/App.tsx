@@ -2,6 +2,7 @@ import Header from './components/Header';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
 import Container from './components/Container';
+import Skills from './components/Skills';
 import styles from './App.module.scss';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Education />
         </div>
       </Container>
+      <Skills />
     </main>
   );
 }

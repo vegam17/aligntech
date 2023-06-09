@@ -1,0 +1,9 @@
+.skills {
+    @apply bg-black py-12;
+    h2 {
+        @apply text-white text-center;
+    }
+    .skillsWrap {
+        @apply flex flex-col sm:flex-row gap-4;
+    }
+}
