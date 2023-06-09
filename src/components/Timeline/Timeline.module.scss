@@ -1,0 +1,28 @@
+.timeline {
+    @apply relative sm:border-l-2 border-blue;
+    > li {
+        @apply mb-9 sm:ml-4;
+        .header {
+            @apply text-center flex flex-col sm:text-left sm:flex-col-reverse mb-2;
+            h3 {
+                @apply text-lg font-semibold text-blue lg:inline-block;
+                span {
+                    @apply text-black;
+                }
+            }
+        }
+        ul {
+            @apply pl-4;
+            li {
+                @apply list-disc font-quicksand font-normal leading-[175%] text-sm;
+            }
+            
+        }
+        &:last-child {
+            @apply mb-0;
+        }
+    }
+    .line {
+        @apply hidden sm:block absolute w-3 h-3 bg-blue rounded-full mt-1.5 -left-[7px] border border-blue;
+    }
+}

@@ -3,4 +3,16 @@ type TSocial = {
   url: string;
 };
 
-export type { TSocial };
+type TDate = {
+  from?: string;
+  to?: string;
+};
+
+type TEvent = {
+  date: TDate;
+  heading: string;
+  subheading?: string;
+  details?: string[];
+};
+
+export type { TSocial, TEvent };

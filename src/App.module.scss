@@ -1,3 +1,9 @@
-.h1 {
-  @apply text-3xl font-bold text-blue font-oswald;
+.columns {
+  @apply grid sm:grid-cols-3 gap-8 py-12;
+  section {
+    @apply col-span-2;
+  }
+  aside {
+    @apply col-span-1;
+  }
 }
