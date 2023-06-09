@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 interface Props {
   classes?: string;
-  children: ReactElement[] | ReactElement;
+  children: ReactElement[] | ReactElement | string;
 }
 
 export default function Container({ classes, children }: Props) {
