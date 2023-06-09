@@ -15,7 +15,13 @@ export default function Footer() {
           <p>{date}</p>
           <p>{branch.name}</p>
         </div>
-        <img src="https://circleci.com/gh/vegam17/aligntech.svg?style=shield" />
+        <a
+          href="https://app.circleci.com/pipelines/github/vegam17/aligntech"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="https://circleci.com/gh/vegam17/aligntech.svg?style=shield" />
+        </a>
       </Container>
     </footer>
   );
