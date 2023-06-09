@@ -15,4 +15,11 @@ type TEvent = {
   details?: string[];
 };
 
-export type { TSocial, TEvent };
+type TSkill = {
+  icon?: string;
+  heading: string;
+  description?: string;
+  details?: string[];
+};
+
+export type { TSocial, TEvent, TSkill };

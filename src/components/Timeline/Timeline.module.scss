@@ -14,9 +14,8 @@
         ul {
             @apply pl-4;
             li {
-                @apply list-disc font-quicksand font-normal leading-[175%] text-sm;
+                @apply list-disc;
             }
-            
         }
         &:last-child {
             @apply mb-0;
