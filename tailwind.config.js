@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         blue: '#3098E8',
+        blueHover: '#00599D',
         black: '#262626',
         white: '#F5F5F5'
       }
@@ -18,3 +19,4 @@ module.exports = {
   },
   plugins: []
 };
+

@@ -1,0 +1,13 @@
+.iconLink {
+    &:hover {
+        circle {
+            @apply fill-blueHover;
+        }
+    }
+    circle {
+        @apply fill-blue transition-all duration-150;
+    }
+    path {
+        @apply fill-white;
+    }
+}

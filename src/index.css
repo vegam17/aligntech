@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply font-oswald font-bold leading-[150%] text-4xl sm:text-5xl uppercase;
+}
+h2 {
+    @apply font-oswald font-semibold leading-[135%] text-3xl sm:text-4xl;
+}
+h3 {
+    @apply font-oswald font-semibold leading-[125%] text-lg;
+}
+p {
+    @apply font-quicksand font-normal leading-[175%] text-sm;
+}
+.leading {
+    @apply font-quicksand font-normal leading-[150%] text-xl;
+}
+.em {
+    @apply font-quicksand font-semibold text-sm;
+}
+.container {
+    @apply mx-auto max-w-7xl px-4;
+}

@@ -1,0 +1,18 @@
+.header {
+    @apply min-h-[100vh] flex bg-black py-16 sm:min-h-[auto] sm:py-32;
+    .container {
+        @apply flex items-center;
+        .wrap {
+            @apply flex flex-col items-center gap-5 text-center w-full px-4;
+            h1 {
+                @apply text-blue;
+            }
+            h2 {
+                @apply text-white;
+            }
+            p {
+                @apply text-white max-w-4xl text-center;
+            }
+        }
+    }
+}
