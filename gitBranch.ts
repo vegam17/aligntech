@@ -17,7 +17,7 @@ const branchData = {
   name: getCurrentBranch()
 };
 
-const filePath = './src/data/branch.json';
+const filePath = './src/data/branchName.json';
 fs.writeFile(filePath, JSON.stringify(branchData), (err) => {
   if (err) {
     console.error('Error writing branch name to file', err);
