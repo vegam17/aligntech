@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <Container classes={styles.wrap}>
         <div>
-          <p>date: {date}</p>
+          <p>{date}</p>
           <p>branch: {branch.name}</p>
         </div>
         <a
