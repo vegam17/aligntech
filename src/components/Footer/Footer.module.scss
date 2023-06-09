@@ -1,0 +1,9 @@
+.footer {
+    @apply bg-black text-white py-6;
+    .wrap {
+        @apply flex justify-between items-center;
+        img {
+            @apply h-6;
+        }
+    }
+}

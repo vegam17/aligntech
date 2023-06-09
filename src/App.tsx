@@ -3,6 +3,7 @@ import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
 import Container from './components/Container';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 import styles from './App.module.scss';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         </div>
       </Container>
       <Skills />
+      <Footer />
     </main>
   );
 }
