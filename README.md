@@ -18,10 +18,12 @@
 - Install [Docker](https://www.docker.com/) and ensure it is running
 - Clone this project using `git clone https://github.com/vegam17/aligntech.git`
 - `cd aligntech` Navigate to the project directory
-- `npm run docker` Build the docker project
+- `npm install` Download and install dependencies
+- `npm run docker` Build the project and serve on docker
 - Wait while the project is built. This involves downloading a docker image, installing modules and building the project.
-- Once complete, you should see a message stating: 'Accepting connections at http://localhost:3000'
-- Issue the command `npm run docker:down` to stop the project
+- Once complete, you should see a message stating: `Accepting connections at http://localhost:3000`
+- Navigate to [http://localhost:3000](http://localhost:3000) to view the page
+- Issue the command `npm run docker:down` to destroy the associated containers when complete
 
 ## Development
 
