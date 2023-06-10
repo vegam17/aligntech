@@ -20,6 +20,8 @@
     "start": "npm run branch && react-scripts start",
     "build": "npm run branch && react-scripts build",
     "test": "npm run branch && react-scripts test",
+    "docker": "npm run branch && react-scripts build && docker-compose up",
+    "docker:down": "docker-compose down",
     "eject": "react-scripts eject",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
