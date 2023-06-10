@@ -24,6 +24,8 @@ export default function Footer() {
           <img
             src="https://circleci.com/gh/vegam17/aligntech.svg?style=shield"
             alt="Build Status"
+            width="122px"
+            height="24px"
           />
         </a>
       </Container>

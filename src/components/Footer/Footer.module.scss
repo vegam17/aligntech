@@ -3,7 +3,7 @@
     .wrap {
         @apply text-center flex flex-col gap-2 sm:gap-0 sm:text-left sm:flex-row sm:justify-between sm:items-center;
         img {
-            @apply mx-auto sm:mx-0 h-6;
+            @apply mx-auto sm:mx-0;
         }
     }
 }

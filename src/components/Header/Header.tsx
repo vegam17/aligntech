@@ -1,5 +1,6 @@
 import Container from '../Container';
 import Social from '../Social';
+import ScrollIcon from '../../icons/ScrollIcon';
 import styles from './Header.module.scss';
 import data from '../../data';
 
@@ -21,6 +22,9 @@ export default function Header() {
           <Social />
         </div>
       </Container>
+      <div className={styles.scrollDown}>
+        <ScrollIcon />
+      </div>
     </header>
   );
 }

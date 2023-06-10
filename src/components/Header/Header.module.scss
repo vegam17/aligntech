@@ -1,5 +1,5 @@
 .header {
-    @apply min-h-[100vh] flex bg-black py-16 sm:min-h-[auto] sm:py-32;
+    @apply min-h-[100vh] flex bg-black py-16 sm:min-h-[auto] sm:py-32 relative;
     .container {
         @apply flex items-center;
         .wrap {
@@ -14,5 +14,23 @@
                 @apply text-white max-w-4xl text-center;
             }
         }
+    }
+    .scrollDown {
+        @apply absolute bottom-8 left-[50%] translate-x-[-50%] sm:hidden;
+        animation: fadeLoop 2s infinite;
+        svg {  
+            @apply fill-white h-8 w-8;
+        }
+    }
+}
+@keyframes fadeLoop {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
     }
 }
