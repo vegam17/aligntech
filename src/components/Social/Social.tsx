@@ -11,7 +11,7 @@ export default function Social() {
       {social.map(({ slug, url }) => (
         <li key={slug}>
           <a href={url} target="_blank" rel="noreferrer">
-            {getIcon(slug)}
+            {getIcon(slug)} <span className="sr-only">{slug}</span>
           </a>
         </li>
       ))}
